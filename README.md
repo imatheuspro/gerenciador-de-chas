@@ -64,22 +64,17 @@ Ordenação por nome, preço, categoria, etc.
 
 📂 Estrutura do Projeto
 src/
-
  ├── app/
- 
  │    ├── produtos/
- 
  │    │    ├── lista-produtos/
  │    │    ├── formulario-produto/
  │    │    └── service/
- 
  │    ├── confirmar-dialog/
  │    └── app.routes.ts
  ├── api/
- 
  │    └── db.json
- 
  └── styles.css
+
 
 🛠️ Como Executar o Projeto
 1️⃣ Instalar dependências
