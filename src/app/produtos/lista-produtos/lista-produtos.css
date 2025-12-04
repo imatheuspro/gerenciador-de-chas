@@ -1,0 +1,28 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+}
+
+.search-field {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.btn-remover {
+  background-color: #d32f2f !important;
+  color: #fff !important;
+}
+
+.btn-remover:hover {
+  background-color: #b71c1c !important;
+}

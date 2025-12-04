@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "nome": "Chá Verde Sencha",
+      "descricao": "Folhas jovens de chá verde colhidas ao amanhecer, ricas em antioxidantes e com sabor herbal leve.",
+      "preco": 12,
+      "categoria": "Chá Verde",
+      "quantidade": 1000,
+      "id": "8624"
+    },
+    {
+      "nome": "Chá Preto Assam",
+      "descricao": "Chá encorpado e intenso, originário da Índia, ideal para consumo pela manhã. Aroma quente e sabor marcante.",
+      "preco": 15,
+      "categoria": "Chá Preto",
+      "quantidade": 550,
+      "id": "2e29"
+    },
+    {
+      "nome": "Chá Branco Pai Mu Tan",
+      "descricao": "Elaborado com brotos e folhas jovens, possui sabor delicado, levemente adocicado, e alta concentração de antioxidantes.",
+      "preco": 18,
+      "categoria": "Chá Branco",
+      "quantidade": 50,
+      "id": "2a3e"
+    },
+    {
+      "nome": "Oolong Tie Guan Yin",
+      "descricao": "Chá semi-fermentado com aroma floral e sabor suave. Combina notas de frutas e flores com um toque tostado.",
+      "preco": 20,
+      "categoria": "Chá Oolong",
+      "quantidade": 87,
+      "id": "7066"
+    },
+    {
+      "nome": "Pu-erh Tradicional Envelhecido",
+      "descricao": "Chá fermentado e maturado por anos, resultando em sabor terroso, profundo e encorpado. Muito apreciado após refeições.",
+      "preco": 22,
+      "categoria": "Chá Pu-erh",
+      "quantidade": 10,
+      "id": "e286"
+    },
+    {
+      "nome": "Chá Amarelo Huang Ya",
+      "descricao": "Raro e delicado, passando por um processo de “amarelamento” que resulta em um sabor suave, doce e levemente frutado.",
+      "preco": 25,
+      "categoria": "Chá Amarelo",
+      "quantidade": 275,
+      "id": "ebcf"
+    },
+    {
+      "nome": "Infusão de Hortelã",
+      "descricao": "Folhas frescas e selecionadas de hortelã, proporcionando uma bebida refrescante, aromática e calmante para o estômago.",
+      "preco": 8,
+      "categoria": "Ervas / Infusões",
+      "quantidade": 890,
+      "id": "bdad"
+    },
+    {
+      "nome": "Chá Blend Relaxante",
+      "descricao": "Combinação equilibrada de camomila, capim-limão e lavanda. Aroma floral suave e efeito calmante ideal para a noite.",
+      "preco": 10,
+      "categoria": "Misturas / Blends",
+      "quantidade": 45,
+      "id": "eef5"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.header-toolbar {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
