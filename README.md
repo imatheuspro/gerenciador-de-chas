@@ -1,59 +1,120 @@
-# Projeto
+🌱 Sistema de Gerenciamento de Chás
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+Aplicação web desenvolvida em Angular 21+ para gerenciamento de produtos (chás).
+O sistema permite listar, cadastrar, editar, excluir e filtrar chás, utilizando uma interface moderna com Angular Material e persistência de dados via JSON Server.
 
-## Development server
+🚀 Tecnologias Utilizadas
 
-To start a local development server, run:
+Angular 21+
 
-```bash
-ng serve
-```
+Angular Material
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Typescript
 
-## Code scaffolding
+HTML / CSS
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+RxJS
 
-```bash
-ng generate component component-name
-```
+JSON Server (fake API)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Git & GitHub
 
-```bash
-ng generate --help
-```
+📌 Funcionalidades do Sistema
+✔️ Listagem de Produtos
 
-## Building
+Tabela com ordenação (sort)
 
-To build the project run:
+Paginação (paginator)
 
-```bash
-ng build
-```
+Busca rápida por nome ou descrição
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Botões de ação com ícones modernos (editar / excluir)
 
-## Running unit tests
+✔️ Cadastro de Novos Chás
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Formulário reativo (Reactive Forms)
 
-```bash
-ng test
-```
+Campos validados
 
-## Running end-to-end tests
+Seleção de categoria
 
-For end-to-end (e2e) testing, run:
+Snackbar de confirmação
 
-```bash
-ng e2e
-```
+✔️ Edição de Produtos
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Carrega automaticamente os dados do produto selecionado
 
-## Additional Resources
+Atualiza os dados corretamente via PUT
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Exibe mensagem de sucesso com snackbar
+
+✔️ Exclusão com Confirmação
+
+Caixa de diálogo usando MatDialog
+
+Botão vermelho de exclusão (Material Design)
+
+Atualização automática da tabela sem recarregar a página
+
+✔️ Filtro e Ordenação
+
+Pesquisa instantânea
+
+Ordenação por nome, preço, categoria, etc.
+
+📂 Estrutura do Projeto
+src/
+ ├── app/
+ │    ├── produtos/
+ │    │    ├── lista-produtos/
+ │    │    ├── formulario-produto/
+ │    │    └── service/
+ │    ├── confirmar-dialog/
+ │    └── app.routes.ts
+ ├── api/
+ │    └── db.json
+ └── styles.css
+
+🛠️ Como Executar o Projeto
+1️⃣ Instalar dependências
+npm install
+
+2️⃣ Iniciar a API (JSON Server)
+npm run api
+
+
+A API ficará disponível em:
+
+👉 http://localhost:3000/products
+
+3️⃣ Iniciar o projeto Angular
+npm start
+
+
+A aplicação abre em:
+
+👉 http://localhost:4200/
+
+🍵 Categorias de Chás utilizadas
+
+Chá Verde
+
+Chá Preto
+
+Chá Branco
+
+Chá Oolong
+
+Chá Pu-erh
+
+Chá Amarelo
+
+Ervas / Infusões
+
+Misturas / Blends
+
+🧑‍💻 Autor
+
+Matheus Alves
+Desenvolvedor Front-end | Estudante de ADS – UFRN
+GitHub: https://github.com/imatheuspro
