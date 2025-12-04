@@ -100,9 +100,3 @@ Chá Amarelo
 Ervas / Infusões
 
 Misturas / Blends
-
-🧑‍💻 Autor
-
-Matheus Alves
-Desenvolvedor Front-end | Estudante de ADS – UFRN
-GitHub: https://github.com/imatheuspro
